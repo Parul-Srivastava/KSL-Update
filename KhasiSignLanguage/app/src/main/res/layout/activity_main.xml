@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic2">
+
+    <!-- Signcraft Title -->
+    <TextView
+        android:id="@+id/heading_signcraft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Signcraft"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.05"
+        android:fontFamily="sans-serif-light"
+        android:elevation="10dp"
+        android:padding="8dp"/>
+
+    <!-- Select Button -->
+    <Button
+        android:id="@+id/buttonSelect"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading_signcraft"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg"
+        android:elevation="6dp"
+        android:padding="12dp"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Capture Button -->
+    <Button
+        android:id="@+id/buttonCapture"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSelect"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Capture"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+
+    <!-- Predict Button -->
+    <Button
+        android:id="@+id/buttonPredict"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCapture"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Predict"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+
+    <!-- Letter Lookup Button -->
+    <Button
+        android:id="@+id/buttonLetterLookup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPredict"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Letter Lookup"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+
+    <!-- Real-Time Prediction Button -->
+    <Button
+        android:id="@+id/buttonRealTimePrediction"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLetterLookup"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Realtime"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+
+    <!-- TextView for displaying the predicted hand sign -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRealTimePrediction"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:text="Predicted Hand Sign: "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#AA000000"
+        android:gravity="center" />
+</RelativeLayout>

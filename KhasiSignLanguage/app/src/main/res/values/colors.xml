@@ -1,0 +1,5 @@
+<resources>
+    <!-- Define your custom colors -->
+    <color name="buttonTextColorWhite">#FFFFFF</color> <!-- White -->
+    <color name="buttonTextColorRed">#FF0000</color> <!-- Red -->
+</resources>

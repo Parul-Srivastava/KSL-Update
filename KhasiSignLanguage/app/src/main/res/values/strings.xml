@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KhasiSignLanguage</string>
+    <string name="title_activity_letter_lookup">LetterLookupActivity</string>
+</resources>
